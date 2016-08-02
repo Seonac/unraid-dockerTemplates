@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>MediaElch</Name>
+  <Description>MediaElch (http:///www.kvibes.de/mediaelch/) is a media manager built with QT is available for Mac OS x, Windows and Linux. Used to manage metadata for movies, tv shows, music and concerts.[br][br]
+[b][span style='color: #E80000;']Directions:[/span][/b][br]
+[b]/config[/b] Location where you would like MediaElch config will be stored. Usually this would be appdata.[br]
+[b]/media[/b] Location where MediaElch will search for media.[br]
+  <Registry>https://registry.hub.docker.com/u/seonac/docker-mediaelch</Registry>
+  <Repository>seonac/docker-mediaelch</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3389</HostPort>
+        <ContainerPort>3389</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/mediaelch</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user</HostDir>
+      <ContainerDir>/media</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <WebUI>http://[IP]:[PORT:8080]/#/client/c/mediaelch</WebUI>
+  <Banner></Banner>
+  <Icon></Icon>
+  <ExtraParams></ExtraParams>
+</Container>
