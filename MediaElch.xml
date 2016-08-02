@@ -5,7 +5,7 @@
 [b][span style='color: #E80000;']Directions:[/span][/b][br]
 [b]/config[/b] Location where you would like MediaElch config will be stored. Usually this would be appdata.[br]
 [b]/media[/b] Location where MediaElch will search for media.[br]</Description>
-  <Registry>https://registry.hub.docker.com/u/seonac/docker-mediaelch</Registry>
+  <Registry>https://hub.docker.com/r/seonac/docker-mediaelch/</Registry>
   <Repository>seonac/docker-mediaelch</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
