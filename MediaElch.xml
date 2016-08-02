@@ -3,8 +3,8 @@
   <Name>MediaElch</Name>
   <Description>MediaElch (http:///www.kvibes.de/mediaelch/) is a media manager built with QT is available for Mac OS x, Windows and Linux. Used to manage metadata for movies, tv shows, music and concerts.[br][br]
 [b][span style='color: #E80000;']Directions:[/span][/b][br]
-[b]/config[/b] Location where you would like MediaElch config will be stored. Usually this would be appdata.[br]
-[b]/media[/b] Location where MediaElch will search for media.[br]</Description>
+[b]/config:[/b] Location where you would like MediaElch config will be stored. Usually this would be appdata.[br]
+[b]/media:[/b] Location where MediaElch will search for media.[br]</Description>
   <Registry>https://hub.docker.com/r/seonac/docker-mediaelch/</Registry>
   <Repository>seonac/docker-mediaelch</Repository>
   <BindTime>true</BindTime>
