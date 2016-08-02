@@ -40,6 +40,6 @@
   <Version></Version>
   <WebUI>http://[IP]:[PORT:8080]/#/client/c/mediaelch</WebUI>
   <Banner></Banner>
-  <Icon></Icon>
+  <Icon>https://raw.githubusercontent.com/Seonac/unraid-dockerTemplates/master/images/MediaElch.png</Icon>
   <ExtraParams></ExtraParams>
 </Container>
