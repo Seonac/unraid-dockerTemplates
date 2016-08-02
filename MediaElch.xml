@@ -27,18 +27,18 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/mediaelch</HostDir>
-      <ContainerDir>/config</ContainerDir>
+      <HostDir>/mnt/user/appdata/mediaelch/</HostDir>
+      <ContainerDir>/config/</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user</HostDir>
-      <ContainerDir>/media</ContainerDir>
+      <HostDir>/mnt/user/</HostDir>
+      <ContainerDir>/media/</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <Version></Version>
-  <WebUI>http://[IP]:[PORT:8080]/#/client/c/mediaelch</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]/#/client/c/mediaelch/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/Seonac/unraid-dockerTemplates/master/images/MediaElch.png</Icon>
   <ExtraParams></ExtraParams>
